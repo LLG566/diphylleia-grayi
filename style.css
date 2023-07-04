@@ -1,3 +1,7 @@
+body {
+  background-color: #000033;
+}
+
 .lnr{
   display: flex;
   justify-content: space-around;
