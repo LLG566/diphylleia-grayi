@@ -4,6 +4,60 @@
 	<meta charset="UTF-8">
 	<title>Home</title>
 	<link rel="stylesheet" href="style.css">
+
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: skyblue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #6495ED;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: skyblue;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: navy;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+	
 </head>
 
 <body>
@@ -13,11 +67,13 @@
 	<a href="https://llg566.github.io/My_Pace-StrayKids/"><img src="skzmypace.png" alt="My Pace Puzzle" style="width:400px;height:400px;"></a>
 	<a href="https://llg566.github.io/Maybe_Tomorrow-Jonghyun/"><img src="sunset.jpg" alt="Sunset" style="width:500px;height:400px;"></a>
 </div>
+<ul>
 <div class="lnr">
-	<a href="https://youtu.be/Fw7C6IsDYgI" target="_blank">Mikrokosmos</a>
-	<a href="https://youtu.be/pok5yDw77uM" target="_blank">My Pace</a>
-	<a href="https://youtu.be/hl-Z3lS-X3w" target="_blank">Maybe Tomorrow</a>
+	<li><a href="https://youtu.be/Fw7C6IsDYgI" target="_blank">Mikrokosmos</a></li>
+	<li><a href="https://youtu.be/pok5yDw77uM" target="_blank">My Pace</a></li>
+	<li><a href="https://youtu.be/hl-Z3lS-X3w" target="_blank">Maybe Tomorrow</a></li>
 </div>
+</ul>
 
 </body>
 </html>
