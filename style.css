@@ -1,5 +1,5 @@
 body {
-  background-color: #2F4F4F;
+  background-color: #1c2126;
 }
 
 .lnr{
@@ -8,3 +8,7 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: #778899;
+  text-align: center;
+}
